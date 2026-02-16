@@ -29,4 +29,8 @@ void I2CParallel9538::reset() {
   digitalWrite(_resetPin, LOW);
   delayMicroseconds(1);
   digitalWrite(_resetPin, HIGH);
+
+  _inputState = I2C_PARALLEL_STARTUP_INPUT_STATE;
+  _outputState = I2C_PARALLEL_STARTUP_INPUT_STATE;
+  _polarityState = 0;
 }

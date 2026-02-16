@@ -268,7 +268,6 @@ public:
   void setInputPolarity(const uint8_t polarity);
 
 protected:
-private:
   uint8_t _polarityState;
 };
 
