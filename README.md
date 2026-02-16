@@ -19,16 +19,20 @@ Supported hardware:
 
 * PCA9534
 * PCA9534A
-* PCA9538
-* TCA9538
 * TCA9534
 * TCA9534A
 * PCA9554
 * PCA9554A
 * TCA9554
 * TCA9554A
+
+### Programmable I/O and RESET\_L pin
+
+* PCA9538
+* TCA9538
 * PCA6408A
 * TCA6408A
+
 
 Dependencies
 ------------
