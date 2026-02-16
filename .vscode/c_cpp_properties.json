@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "teensy41",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:HOME}/.arduino15/packages/teensy/hardware/avr/1.59.0/cores/teensy4/",
+                "${env:HOME}/.arduino15/packages/teensy/hardware/avr/1.59.0/libraries/**"
+            ],
+            "defines": [
+                "__IMXRT1062__",
+                "TEENSYDUINO=159",
+                "USB_SERIAL",
+                "ARDUINO_TEENSY41",
+                "__cplusplus=201703L"
+            ],
+            "compilerPath": "${env:HOME}/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/arm-none-eabi-gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
