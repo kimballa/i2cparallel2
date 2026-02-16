@@ -19,6 +19,8 @@ Supported hardware:
 
 * PCA9534
 * PCA9534A
+* PCA9538
+* TCA9538
 * TCA9534
 * TCA9534A
 * PCA9554
@@ -61,6 +63,8 @@ input or output. Output values are latched from the output register, and reads a
 the pins, saving state to an input register, and reading that back to the I2C master. A separate "polarity"
 configuration register instructs the device to invert the latched values before reading them back over I2C.
 
+**9538** is identical to the '9534 but includes a `RESET_L` pin for asynchronous hardware reset.
+
 **9554** is identical to '9534 but has weak (~100kOhm) pullup resistors for each output pin
 *integrated on the device.
 
@@ -100,3 +104,8 @@ License
 -------
 
 This project is licensed under the BSD 3-Clause license. See LICENSE.txt for complete details.
+
+Original version
+----------------
+
+This is version 2.0 of the I2CParallel library. v1 is available at https://github.com/kimballa/i2cparallel.
