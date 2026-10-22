@@ -27,8 +27,8 @@ static constexpr uint8_t CONFIG_DIRECTION_OUTPUT = 0x00;
 // Register addresses for the command byte to send to the device.
 static constexpr uint8_t REG_INPUT = 0x00;
 static constexpr uint8_t REG_OUTPUT = 0x01;
-static constexpr uint8_t REG_CONFIG = 0x02;
-static constexpr uint8_t REG_POLARITY = 0x03;
+static constexpr uint8_t REG_POLARITY = 0x02;
+static constexpr uint8_t REG_CONFIG = 0x03;
 
 // Always end our i2c transmissions with the STOP signal.
 static constexpr uint8_t SEND_STOP = 1;
